@@ -10,7 +10,7 @@ import Input from "../Input/Input";
 import Messages from "../Messages/Messages";
 
 let socket;
-const endpoint = "http://192.168.100.18:5000";
+const endpoint = "http://localhost:5000"; // socket.io server ip
 
 const Chat = () => {
   const location = useLocation();
